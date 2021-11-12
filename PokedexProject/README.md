@@ -19,6 +19,7 @@ To run the application with command line arguments :
 
 ```
 ./gradlew run --args="premierArgument secondArgument"
+PremierArgument should be a pokemon id, secondArgument should be a database path
 ```
 
 

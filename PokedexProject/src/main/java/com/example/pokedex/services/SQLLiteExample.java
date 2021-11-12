@@ -1,4 +1,4 @@
-package com.example.pokedex;
+package com.example.pokedex.services;
 
 import java.sql.*;
 
@@ -8,7 +8,7 @@ public class SQLLiteExample {
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:/tmp/pokemondatabase.sqlite";
+            String url = "jdbc:sqlite:/Users/ICM2 A/TB 3/good practices/TP 1/PokedexProject/pokemondatabase.sqlite";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
             System.out.println("Connection to SQLite has been established.");
