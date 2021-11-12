@@ -3,6 +3,8 @@ package com.example.pokedex;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.example.pokedex.Pokedex;
+
 import static org.junit.Assert.*;
 
 public class PokedexTest {
